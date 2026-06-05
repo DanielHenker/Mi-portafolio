@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Daniel Henker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Daniel Henker</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <div>
+                <h2>Hola, soy Daniel Henker</h2>
+                <p>
+                    Soy estudiante de Biologia en la Universidad Nacional y tambien estoy estudiando
+                    en un bootcamp de desarrollo web. Estoy aprendiendo a crear paginas con HTML,
+                    CSS y buenas bases para organizar proyectos. Me interesa unir lo que aprendo
+                    de tecnologia con temas de ciencia y medio ambiente.
+                </p>
+            </div>
+            <img class="foto-perfil" src="assets/daniel-henker.jpg" alt="Foto de Daniel Henker">
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="contenedor-proyectos">
+                <article class="proyecto">
+                    <img src="assets/proyecto-1.jpg" alt="Imagen del proyecto pagina personal">
+                    <h3>Pagina personal</h3>
+                    <p>
+                        Proyecto de practica donde hice una pagina sencilla para presentarme,
+                        escribir sobre mis intereses y organizar informacion personal.
+                    </p>
+                </article>
+
+                <article class="proyecto">
+                    <img src="assets/proyecto-2.jpg" alt="Imagen del proyecto guia de plantas">
+                    <h3>Guia de plantas</h3>
+                    <p>
+                        Idea de una pagina para mostrar informacion basica sobre plantas, sus nombres
+                        y algunos datos importantes. Es un proyecto relacionado con mi carrera.
+                    </p>
+                </article>
+
+                <article class="proyecto">
+                    <img src="assets/proyecto-3.jpg" alt="Imagen del proyecto formulario">
+                    <h3>Formulario de contacto</h3>
+                    <p>
+                        Practica con formularios usando campos de texto, correo y mensaje.
+                        Sirve para aprender como recibir informacion de otras personas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+                <span>Grid</span>
+                <span>Formularios</span>
+                <span>Git basico</span>
+                <span>Ingles</span>
+                <span>Trabajo en equipo</span>
+                <span>Organizacion</span>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si quieres contactarme, puedes dejarme un mensaje en este formulario.</p>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p class="datos-contacto">
+                Correo: daniel.henker@email.com<br>
+                Ciudad: Bogota
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portafolio personal de Daniel Henker - 2026</p>
+    </footer>
+</body>
+</html>
